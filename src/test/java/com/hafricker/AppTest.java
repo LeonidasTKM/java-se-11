@@ -2,6 +2,7 @@ package com.hafricker;
 
 import static org.junit.Assert.assertTrue;
 
+import com.hafricker.thread.Write;
 import org.junit.Test;
 
 /**
@@ -13,8 +14,7 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
+    public void runThread()
     {
-        assertTrue( true );
     }
 }
